@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1">
+
+    
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="9"
+        android:id="@+id/editimgView" />
+
+
+  
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:id="@+id/linearLayout2">
+
+        <Space
+             android:layout_height="match_parent"
+             android:layout_width="1dp"
+             android:layout_weight="0.06"
+            android:id="@+id/space4" />
+
+        <Button
+            android:text="Crop"
+            android:textSize="11sp"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/cropbtn" />
+
+        <Space
+             android:layout_height="match_parent"
+             android:layout_width="1dp"
+             android:layout_weight="0.06"
+            android:id="@+id/space1" />
+
+        <Button
+            android:text="Rotate"
+            android:textSize="11sp"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/rotatebtn" />
+
+        <Space
+             android:layout_height="match_parent"
+             android:layout_width="1dp"
+             android:layout_weight="0.06"
+            android:id="@+id/space2" />
+
+        <Button
+            android:text="Brightness"
+            android:textSize="11sp"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/brightbtn" />
+        <Space
+             android:layout_height="match_parent"
+             android:layout_width="1dp"
+             android:layout_weight="0.06"
+            android:id="@+id/space3" />
+   </LinearLayout>
+     <Button
+         android:text="Save"
+         android:textSize="13sp"
+         android:layout_width="match_parent"
+         android:layout_height="1dp"
+         android:layout_weight="0.9"
+         android:id="@+id/savebtn" />
+     
+  </LinearLayout>
